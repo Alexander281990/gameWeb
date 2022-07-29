@@ -1,0 +1,14 @@
+@import 'base/_variables';
+@import 'base/_mixins';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1340px;
+    margin: 0 auto;
+}
+
+@import 'blocks/_header';
