@@ -1,0 +1,10 @@
+@mixin circle () {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    background-color: $color-background-circle;
+    border: 3px solid $color-first-later;
+  }
