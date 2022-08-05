@@ -1,0 +1,76 @@
+.startegic {
+    background-color: $color-background-section;
+    .container {
+        .strategic-inner {
+            width: 100%;
+            //height: 1235px;
+            background-color: white;
+            padding-left: 50px;
+            padding-right: 35px;
+            padding-top: 35px;
+            padding-bottom: 60px;
+            h3 {
+                @include text-1 ();
+                margin-bottom: 13px;
+                span {
+                    border-bottom: 1px solid $color-text-grey;
+                }
+            }
+            h3:first-letter {
+                color: $color-first-later;
+                font-size: 70px;
+            }
+            .strategic-text-first {
+                @include text-2 ();
+                margin-bottom: 20px;
+            }
+            .strategic-text-second {
+                @include text-3 ();
+                margin-bottom: 30px;
+            }
+            .strategic-img {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: repeat(3, 285px);
+                padding-left: 100px;
+                padding-right: 100px;
+                .strategic-img-content {
+                    width: 100%;
+                    height: 100%;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    h4 {
+                        @include text-1 ();
+                        margin-bottom: 35px;
+
+                    }
+                    .content-text_1 {
+                        @include text-2 ();
+                        margin-bottom: 20px;
+                    }
+                    .content-text_2 {
+                        @include text-3 ();
+                    }
+                }
+                .content_1 {
+                    background-image: url("../img/img_game_9.png");
+                }
+                .content_4 {
+                    background-image: url("../img/img_game_10.png");
+                }
+                .content_5 {
+                    background-image: url("../img/img_game_11.png");
+                    background-position-x: 100%;
+                }
+                .content_text {
+                    padding-top: 48px;
+                    padding-left: 35px;
+                    padding-right: 35px;
+                }
+                #content_text {
+                    padding-top: 25px;
+                }
+            }
+        }
+    }
+}

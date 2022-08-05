@@ -8,3 +8,27 @@
     background-color: $color-background-circle;
     border: 3px solid $color-first-later;
   }
+
+@mixin text-1 {
+    font-family: $font-main;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    color: black;
+}
+
+@mixin text-2 {
+    font-family: $font-main;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: italic;
+    color: black;
+}
+
+@mixin text-3 {
+    font-family: $font-main;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    color: $color-text-grey;
+}

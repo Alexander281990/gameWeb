@@ -55,18 +55,10 @@
                     padding-bottom: 30px;
                     padding-top: 20px;
                     .about-text-first {
-                        font-family: $font-main;
-                        font-size: 16px;
-                        font-weight: normal;
-	                    font-style: italic;
-                        color: black;
+                        @include text-2 ();
                     }
                     .about-text-second {
-                        font-family: $font-main;
-                        font-size: 14px;
-                        font-weight: normal;
-	                    font-style: normal;
-                        color: $color-text-grey;
+                        @include text-3 ();
                     }
                 }
             }

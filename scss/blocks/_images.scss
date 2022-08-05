@@ -3,9 +3,93 @@
     .container {
         .images-inner {
             width: 100%;
-            height: 705px;
-            background-color: rgb(149, 142, 142);
-            padding: 50px 0 18px 0;
+            //height: 705px;
+            background-color: rgb(255, 255, 255);
+            padding-bottom: 18px;
+            .images-featured {
+                //height: 147px;
+                width: 100%;
+                padding-left: 80px;
+                padding-bottom: 18px;
+                h3 {
+                    font-family: $font-main;
+                    font-weight: 600;
+	                font-style: normal;
+                    font-size: 30px;
+                    color: black;
+                    span {
+                        border-bottom: 1px solid $color-text-grey;
+                    }
+                }
+                h3:first-letter {
+                    color: $color-first-later;
+                    font-size: 70px;
+                }
+                nav {
+                    ul {
+                        li {
+                            display: inline;
+                            list-style-type: none;
+                            margin-right: 16px;
+                            a {
+                                color: black;
+                                text-decoration: none;
+                                text-transform: uppercase;
+                                font-family: $font-main;
+                                font-weight: 600;
+	                            font-style: normal;
+                                font-size: 10px;
+                            }
+                            a:hover {
+                                border-bottom: 2px solid $color-first-later;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .images-galery {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+	        grid-template-rows: 260px 260px;
+	        grid-row-gap: 3px;
+            .img {
+                width: 100%;
+                height: 100%;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .img_1 {
+                background-image: url("../img/img_game_1.png");
+                background-position-x: 90%;
+            }
+            .img_2 {
+                background-image: url("../img/img_game_2.png");
+            }
+            .img_3 {
+                background-image: url("../img/img_game_3.png");
+                background-position-x: 75%;
+            }
+            .img_4 {
+                background-image: url("../img/img_game_4.png");
+                background-position-x: 100%;
+            }
+            .img_5 {
+                background-image: url("../img/img_game_5.png");
+                background-position-x: 70%;
+            }
+            .img_6 {
+                background-image: url("../img/img_game_6.png");
+                background-position-x: 30%;
+            }
+            .img_7 {
+                background-image: url("../img/img_game_7.png");
+                background-position-x: 70%;
+            }
+            .img_8 {
+                background-image: url("../img/img_game_8.png");
+                background-position-x: 5%;
+            }
         }
     }
 }
