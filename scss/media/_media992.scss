@@ -1,0 +1,134 @@
+@media (max-width: 992px) {
+    .container {
+        max-width: 740px;
+    }
+    ////////////////////////////
+    header {
+        .header_inner {
+            background-position-y: -170px;
+            background-position-x: -200px;
+            .header_information {
+                width: 100%;
+                height: 370px;
+                padding-left: 35px;
+                padding-top: 75px;
+                padding-bottom: 40px;
+                h1 {
+                    font-size: 130px;
+                    letter-spacing: -5px;
+                    line-height: 140px;
+                }
+                div {
+                    font-size: 14px;
+                    margin-bottom: 20px;
+                }
+                a {
+                    font-size: 14px;
+                }
+            }
+            .header_links {
+                height: 500px;
+                padding-left: 35px;
+                padding-top: 55px;
+                .text {
+                    font-size: 35px;
+                    line-height: 30px;
+                    margin-bottom: 20px;
+                }
+                .links {
+                    a {
+                        font-size: 14px;
+                        margin-right: 15px;
+                    }
+                }
+            }
+        }
+    }
+    //////////////////////////////
+    .about {
+        height: 500px;
+        width: 100%;
+        .container {
+            .about_inner {
+                height: 500px;
+                .about-description {
+                    .about-sublime {
+                        height: 120px;
+                        margin-right: 20px;
+                        h4 {
+                            font-size: 30px;
+                        }
+                        h4:first-letter {
+                            font-size: 70px;
+                        }
+                        h3 {
+                            font-size: 60px;
+                            line-height: 25px;
+                        }
+                    }
+                    .about-text {
+                        padding-bottom: 20px;
+                        padding-top: 15px;
+                        .about-text-first {
+                            font-size: 15px
+                        }
+                        .about-text-second {
+                            font-size: 12px;
+                        }
+                    }
+                }
+                .about-item {
+                    height: 50%;
+                    padding-left: 30px;
+                    padding-right: 30px;
+                    .about-item-content {
+                        width: 316px;
+                        padding-top: 1px;
+                        padding-bottom: 35px;
+                        .circle {
+                            @include circle ();
+                        }
+                        h6 {
+                            font-size: 15px;
+                        }
+                        .about-item-text {
+                            font-size: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /////////////////////////////
+    .images {
+        .container {
+            .images-inner {
+                padding-bottom: 18px;
+                .images-featured {
+                    padding-left: 45px;
+                    padding-bottom: 18px;
+                    h3 {
+                        font-size: 30px;
+                    }
+                    h3:first-letter {
+                        font-size: 70px;
+                    }
+                    nav {
+                        ul {
+                            li {
+                                margin-right: 16px;
+                                a {
+                                    font-size: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .images-galery {
+                grid-template-rows: 150px 150px;
+                grid-row-gap: 3px;
+            }
+        }
+    }
+}

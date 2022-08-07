@@ -1,0 +1,95 @@
+.footer {
+    background-color: $color-background-section;
+    .container {
+        .footer__inner {
+            width: 100%;
+            height: 650px;
+            background-color: white;
+            display: flex;
+            align-items: flex-start;
+            background-color: black;
+            .footer__left {
+                height: 100%;
+                width: 30%;
+                padding-left: 25px;
+                padding-top: 120px;
+                .footer__left__text {
+                    span {
+                        color: $color-first-later;
+                    }
+                    color: white;
+                    font-family: $font-main;
+                    font-weight: bold;
+                    font-size: 60px;
+                    line-height: 50px;
+                    margin-bottom: 45px;
+                }
+                .footer__links {
+                    display: flex;
+                    flex-direction: column;
+                    ul {
+                        li {
+                            margin-bottom: 18px;
+                            a {
+                                color: white;
+                                text-decoration: none;
+                                text-transform: uppercase;
+                                font-family: $font-main;
+                                font-weight: normal;
+                                font-style: normal;
+                                font-size: 16px;
+                            }
+                            a:hover {
+                                color: $color-first-later;
+                            }
+                        }
+                        .last__li {
+                            margin-bottom: 36px;
+                        }
+                    }
+                }
+                .line {
+                    width: 110px;
+                    border-bottom: 2px solid $color-first-later;
+                    margin-bottom: 10px;
+                }
+                .social {
+                    ul {
+                        display: flex;
+                        li {
+                            margin-right: 5px;
+                        }
+                    }
+                }
+            }
+            .footer__right {
+                height: 100%;
+                width: 70%;
+                background-image: url(../img/person_6.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: 50%;
+                padding-left: 17px;
+                padding-top: 345px;
+                .footer__right-1 {
+                    font-family: $font-main;
+                    font-weight: bold;
+                    font-style: normal;
+                    font-size: 90px;
+                    color: white;
+                    span {
+                        color: $color-first-later;
+                    }
+                }
+                .footer__right-2 {
+                    font-size: 90px;
+                    color: white;
+                    font-family: $font-main;
+                    font-weight: bold;
+                    font-style: normal;
+                    line-height: 40px;
+                }
+            }
+        }
+    }
+}

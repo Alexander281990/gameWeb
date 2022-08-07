@@ -26,6 +26,7 @@
                 display: flex;
                 flex-direction: column;
                 padding-top: 200px;
+                width: 280px;
                 a {
                     text-decoration: none;
                     color: black;
@@ -37,6 +38,55 @@
                 }
                 a:hover {
                     color: $color-first-later;
+                }
+            }
+            .blogs__content {
+                display: flex;
+                justify-content: space-around;
+                padding-top: 30px;
+                width: 100%;
+                .blogs__content__items-1 {
+                    display: flex;
+                    flex-direction: column;
+                    width: 200px;
+                    .blogs__content__img {
+                        height: 200px;
+                        width: 185px;
+                        margin-bottom: 10px;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                    }
+                    .img__1 {
+                        background-image: url(../img/img_blog_1.png);
+                        background-position: 50%;
+                    }
+                    .img__2 {
+                        background-image: url(../img/img_blog_2.png);
+                    }
+                    .img__3 {
+                        background-image: url(../img/img_blog_3.png);
+                    }
+                    .blogs__content__text-1 {
+                        font-family: $font-main;
+                        font-weight: 600;
+                        font-style: normal;
+                        font-size: 18px;
+                        color: $color-first-later;
+                        margin-bottom: 20px;
+                    }
+                    .blogs__content__text-2 {
+                        font-family: $font-main;
+                        font-weight: bold;
+                        font-style: normal;
+                        font-size: 15px;
+                        margin-bottom: 12px;
+                    }
+                    .blogs__content__text-3 {
+                        font-family: $font-main;
+                        font-weight: normal;
+                        font-style: italic;
+                        font-size: 12px;
+                    }
                 }
             }
         }
