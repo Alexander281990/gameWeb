@@ -34,4 +34,99 @@
             }
         }
     }
+    ////////////////////////////////
+    .startegic {
+        .container {
+            .strategic-inner {
+                padding-left: 50px;
+                padding-right: 35px;
+                padding-top: 1px;
+                padding-bottom: 60px;
+                h3 {
+                    @include text-1 ();
+                    margin-bottom: 13px;
+                }
+                h3:first-letter {
+                    font-size: 70px;
+                }
+                .strategic-text-first {
+                    @include text-2 ();
+                    margin-bottom: 20px;
+                }
+                .strategic-text-second {
+                    @include text-3 ();
+                    margin-bottom: 30px;
+                }
+                .strategic-img {
+                    padding-left: 70px;
+                    padding-right: 70px;
+                    .strategic-img-content {
+                        h4 {
+                            @include text-1 ();
+                            margin-bottom: 10px;
+    
+                        }
+                        .content-text_1 {
+                            @include text-2 ();
+                            margin-bottom: 20px;
+                        }
+                        .content-text_2 {
+                            @include text-3 ();
+                        }
+                    }
+                    .content_5 {
+                        background-position-x: 100%;
+                    }
+                    .content_text {
+                        padding-top: 48px;
+                        padding-left: 20px;
+                        padding-right: 1px;
+                    }
+                    #content_text {
+                        padding-top: 25px;
+                    }
+                }
+            }
+        }
+    }
+    //////////////////////
+    .team {
+        .container {
+            .team-content {
+                height: auto;
+                padding-bottom: 30px;
+                .team-content-left {
+                    padding-top: 30px;
+                }
+                .team-content-right {
+                    padding-top: 20px;
+                    .team-content-right-people {
+                        .team-content-right-human {
+                            .team-content-right-human_img {
+                                width: 150px;
+                                height: 150px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    //////////////////////////
+    .testimonials {
+        .container {
+            .testimonials__inner {
+                height: auto;
+                padding-bottom: 40px;
+                .testimonials__content {
+                    padding-right: 30px;
+                    padding-left: 30px;
+                    align-items: center;
+                    .testimonials__text {
+                        margin-right: 30px;
+                    }
+                }
+            }
+        }
+    }
 }
