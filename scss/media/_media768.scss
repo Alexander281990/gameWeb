@@ -301,4 +301,84 @@
             }
         }
     }
+    //////////////////////////////////
+    .blogs {
+        .container {
+            .blogs__inner {
+                height: 270px;
+                .blogs__text {  
+                    padding-left: 5px;
+                    padding-top: 30px;                 
+                    h3 {
+                        font-size: 25px;
+                    }
+                    h3:first-letter {
+                        font-size: 45px;
+                    }
+                }
+                .blogs__links {
+                    display: none;                  
+                }
+                .blogs__content {
+                    .blogs__content__items-1 {
+                        width: 105px;
+                        .blogs__content__img {
+                            height: 120px;
+                            width: 105px;
+                            margin-bottom: 5px;
+                        }
+                        .blogs__content__text-1 {
+                            font-size: 12px;
+                            margin-bottom: 9px;
+                        }
+                        .blogs__content__text-2 {
+                            font-size: 8px;
+                            margin-bottom: 7px;
+                        }
+                        .blogs__content__text-3 {
+                            font-size: 8px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    ///////////////////////////
+    .footer {
+        .container {
+            .footer__inner {
+                height: 460px;
+                .footer__left {
+                    padding-top: 13px;
+                    .footer__left__text {
+                        font-size: 40px;
+                        margin-left: -20px;
+                        margin-bottom: 17px;
+                    }
+                    .footer__links {
+                        ul {
+                            li {
+                                margin-bottom: 10px;
+                                a {
+                                    font-size: 12px;
+                                }
+                            }
+                            .last__li {
+                                margin-bottom: 36px;
+                            }
+                        }
+                    }
+                }
+                .footer__right {                   
+                    .footer__right-1 {
+                        font-size: 40px;
+                        margin-bottom: 0px;
+                    }
+                    .footer__right-2 {
+                        font-size: 40px;
+                    }
+                }
+            }
+        }
+    }
 }
