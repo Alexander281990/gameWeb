@@ -351,4 +351,21 @@
             }
         }
     }
+    /////////////////////////////////
+    .contacts {      
+        .container {
+            .contacts__inner {
+                .contacts__forms {
+                    padding-left: 20px;
+                    padding-top: 20px;
+                    .feed-forms {
+                        width: 360px;
+                    }
+                    .contacts__line {
+                        width: 360px;
+                    }
+                }
+            }
+        }
+    }
 }
